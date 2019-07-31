@@ -21,7 +21,7 @@ const SessionProvider = ({ children }) => {
       auth.onChange(user => {
         setUser(user);
 
-        user && setStatus('restored');
+        setStatus('restored');
       }),
     []
   );
